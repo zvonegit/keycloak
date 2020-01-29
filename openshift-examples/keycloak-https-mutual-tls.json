@@ -190,7 +190,7 @@
                         "containers": [
                             {
                                 "name": "${APPLICATION_NAME}",
-                                "image": "jboss/keycloak-openshift",
+                                "image": "quay.io/keycloak/keycloak:latest",
                                 "livenessProbe": {
                                     "failureThreshold": 3,
                                     "httpGet": {
@@ -236,7 +236,7 @@
                                     },
                                     {
                                         "name": "X509_CA_BUNDLE",
-                                        "value": "/var/run/secrets/kubernetes.io/serviceaccount/service-ca.crt"
+                                        "value": "/var/run/secrets/kubernetes.io/serviceaccount/service-ca.crt /var/run/secrets/kubernetes.io/serviceaccount/ca.crt"
                                     },
                                     {
                                         "name": "JGROUPS_DISCOVERY_PROTOCOL",

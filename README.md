@@ -4,16 +4,16 @@ Keycloak is an Open Source Identity and Access Management solution for modern Ap
 
 This repository contains Docker images related to Keycloak.
 
-- [keycloak](https://cloud.docker.com/u/jboss/repository/docker/jboss/keycloak) Keycloak server
-* [gatekeeper](https://cloud.docker.com/u/keycloak/repository/docker/keycloak/keycloak-gatekeeper)
-- [keycloak-adapter-wildfly](https://cloud.docker.com/u/jboss/repository/docker/jboss/keycloak-adapter-wildfly) WildFly including Keycloak adapter
+- [keycloak](https://hub.docker.com/r/jboss/keycloak) Keycloak server
+* [gatekeeper](https://hub.docker.com/r/keycloak/keycloak-gatekeeper) Keycloak gatekeeper
+- [keycloak-adapter-wildfly](https://hub.docker.com/r/jboss/keycloak-adapter-wildfly) WildFly including Keycloak adapter
 
 
 ## Help and Documentation
 
 * [Keycloak server image documentation](server/README.md)
 * [Documentation](https://www.keycloak.org/documentation.html)
-* [User Mailing List](https://lists.jboss.org/mailman/listinfo/keycloak-user) - Mailing list for help and general questions about Keycloak
+* [User Mailing List](https://groups.google.com/d/forum/keycloak-user) - Mailing list for help and general questions about Keycloak
 * [JIRA](https://issues.jboss.org/projects/KEYCLOAK) - Issue tracker for bugs and feature requests
 
 
